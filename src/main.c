@@ -3,6 +3,9 @@
         > gcc src/*.c -o bin/prog $(sdl2-config --cflags --libs)
     Windows
         > gcc src/*.c -o bin/prog -I include -L lib -lmingw32 -lSDL2main -lSDL2
+
+    Pour lancer :
+        > .\bin\prog.exe
 */
 #include <SDL2/SDL.h>
 #include <stdio.h>
